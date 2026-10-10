@@ -1,1 +1,10 @@
-
+h1 {
+      font-size: 30pt;
+      font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+      font-weight: 600;
+    }
+h2{
+      font-size: 22.5pt;
+      font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+      font-weight: 600;
+    }
