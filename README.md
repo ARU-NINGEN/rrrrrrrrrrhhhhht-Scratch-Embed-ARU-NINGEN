@@ -1,1 +1,1 @@
-利用する前に必ず[利用規約]をお読みください。
+利用する前に必ず[利用規約](https://github.com/ARU-NINGEN/rrrrrrrrrrhhhhht-Scratch-Embed-ARU-NINGEN/blob/main/AGREEMENT.md#利用規約)をお読みください。
