@@ -1,9 +1,10 @@
 # 利用規約
+**重要：[「rrrrrrrrrrhhhhht氏の作品のScratch埋め込み」](https://aru-ningen.github.io/rrrrrrrrrrhhhhht-Scratch-Embed-ARU-NINGEN/)ウェブページ(以下、「本サイト」という。)をご使用になることで、ご利用者様は、以下のある人間の定める各条項に基づく拘束を受けることに同意されたことになります。**
 ## 第1章　目的・定義
 ### 第1条　目的
 この規約は、Scratchプロジェクトの投稿主であるrrrrrrrrrrhhhhhtおよび本ウェブページの運営主のある人間（以下、「主」という。）の作品の著作権の保護の明記、使用条件の明記等を目的とする。
 ### 第2条　適用範囲
-特に明記のない限りは、[「rrrrrrrrrrhhhhht氏の作品のScratch埋め込み」](https://aru-ningen.github.io/rrrrrrrrrrhhhhht-Scratch-Embed-ARU-NINGEN/)ウェブページ(以下、「本サイト」という。)内を適用範囲とする。
+特に明記のない限りは、本サイト内を適用範囲とする。
 ### 第3条　定義
 本規約で使用する用語の定義を以下の通りとする。
 * 端末:このウェブページを動作させるための端末。パーソナルコンピューター、タブレット型コンピュータ、スマートフォンなどを含む。
