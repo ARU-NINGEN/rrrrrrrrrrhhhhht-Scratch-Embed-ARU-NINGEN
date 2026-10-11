@@ -14,3 +14,4 @@
 rrrrrrrrrrhhhhht氏のScratchプロジェクトに関しては[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)を適用する。
 ### 第5条　本サイトの著作権
 本サイトのプログラムには[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ja)を適用する。
+
