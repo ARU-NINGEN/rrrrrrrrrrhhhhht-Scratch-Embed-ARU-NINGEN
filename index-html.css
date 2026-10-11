@@ -58,12 +58,106 @@ h3{
 
   padding: 10px 18px;
   border-radius: 999px;
-  background: #0071e3;
+  background: #0000FF;
   color: #ffffff;
 
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
   text-decoration: none;
+
+  transition: background 0.2s ease,
+              transform 0.2s ease;
+}
+
+.terms-button:hover {
+  background: #0000FF;
+}
+
+.terms-button:active {
+  transform: scale(0.97);
+}
+
+.terms-button:focus-visible {
+  outline: 3px solid #0000FF;
+  outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+  .terms-banner {
+    gap: 12.5px;
+    padding: 15px;
+  }
+
+  .terms-title {
+    font-size: 17.5px;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+  }
+
+  .terms-subtitle {
+    font-size: 12.5px;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+  }
+
+  .terms-button {
+    padding: 10px 12.5px;
+    font-size: 12.5px;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", sans-serif;
+  }
+}
+.terms-floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  width: max-content;
+  max-width: calc(100% - 32.5px);
+  padding: 17.5px 20px;
+
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.terms-content {
+  min-width: 0;
+}
+
+.terms-content strong {
+  display: block;
+  color: #1d1d1f;
+  font-size: 14px;
+}
+
+.terms-content p {
+  margin: 5px 0 0;
+  color: #6e6e73;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.terms-button {
+  flex-shrink: 0;
+  padding: 10px 16px;
+  border-radius: 999px;
+
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
 
   transition: background 0.2s ease,
               transform 0.2s ease;
@@ -77,27 +171,24 @@ h3{
   transform: scale(0.97);
 }
 
-.terms-button:focus-visible {
-  outline: 3px solid #0071e3;
-  outline-offset: 4px;
-}
-
 @media (max-width: 480px) {
-  .terms-banner {
+  .terms-floating {
+    right: 12px;
+    bottom: 12px;
     gap: 12px;
     padding: 14px;
   }
 
-  .terms-title {
-    font-size: 13px;
-  }
-
-  .terms-subtitle {
+  .terms-content strong {
     font-size: 12px;
   }
 
+  .terms-content p {
+    font-size: 11px;
+  }
+
   .terms-button {
-    padding: 9px 13px;
-    font-size: 13px;
+    padding: 9px 12px;
+    font-size: 12px;
   }
 }
